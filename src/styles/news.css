@@ -1,0 +1,46 @@
+.news-container{
+    width: 100%;
+    margin: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.card-container img{
+   width: 40%
+}
+.card-container{
+    width: 40%;
+    display: flex;
+    margin: 1rem;
+}
+.card-info{
+    padding: 1rem;
+}
+.pagination-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 5rem;
+}
+
+@media(max-width:900px){
+    .news-container{
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .card-container{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+    }
+    .card-container img{
+        width: 100%
+     }
+} 

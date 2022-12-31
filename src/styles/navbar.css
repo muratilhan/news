@@ -1,0 +1,35 @@
+.link-container{
+    text-decoration: none;
+    margin-left: 3rem;
+    color: black;
+    font-size: 20px;
+    padding: 0.5rem 1rem 0.5rem 1rem
+}
+.navbar-container{
+    border-bottom: 1px solid rgb(203, 203, 203);
+}
+.active{
+    background-color: rgb(231, 231, 231);
+    border-radius: 1rem;
+}
+.link-container:hover{
+    color: black;
+}
+.navbar-dropdown{
+    display: none;
+}
+.navbar-inner{
+    display: flex;
+}
+
+@media(max-width:900px){
+    .navbar-dropdown{
+        display: flex;
+    }
+    .navbar-inner{
+        display: none;
+    }
+    .link-container{
+        margin: 0;
+    }
+} 
